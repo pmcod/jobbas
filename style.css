@@ -1,0 +1,213 @@
+body{
+    
+    margin: 0;
+}
+nav h1{
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+.cole h1{
+  margin: 0;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+.explore{
+  background-color: #6013ab;
+  height: 65vh;
+}
+.explore div h1{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding-top: 50px;
+}
+.cole{
+  margin: 0;
+}
+form{
+  background-color: purple ;
+  padding: 20px;
+   
+   
+}
+.forms{
+  margin-top: 50px;
+}
+.fret{
+  margin-left: 150px;
+  
+}
+ select{
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 10px;
+  
+}
+.dropbtn {
+   
+    color: wheat;
+   background-color: transparent;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+    button[type="submit"]{
+      background-color: blue;
+      height: 40px;
+      width: 100px;
+      color: white;
+      border: 0;
+    }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 5px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgb(83, 83, 243)}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.card{
+  border: 1px solid gray;
+  width: 18rem;
+  text-align: center;
+  padding: 10px;
+}
+.card:hover{
+  border: 1.8px solid black;
+}
+a{
+  text-decoration: none;
+}
+.car{
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+}
+.ca{
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  margin-top: 30px;
+}
+.fin{
+  text-align: center;
+  color: grey;
+  font-size: 2rem;
+}
+.h2{
+  margin-left: 160px;
+  font-size: 1.9rem;
+  font-weight: 900;
+}
+.h4{
+  margin-left: 160px;
+  font-size: 1.1rem;
+  color: grey;
+}
+.jo{
+  margin:0 auto;
+  display: block;
+  padding: 10px;
+  width: 13%;
+  border-radius: 10px;
+  border: 0;
+  background-color: #6013ab;
+  margin-top: 40px;
+ 
+}
+.jo a{
+  color: white;
+  font-weight: 900;
+}
+.res{
+  text-align: center;
+}
+
+@media screen and (max-width:600px) {
+.dropdown{
+  display: none;
+}
+.logs{
+  display: none;
+}
+nav{
+  justify-content: space-between;
+}.cole{
+  width: 100%;
+  
+}
+.fret{
+  margin: 0;
+}
+
+.cole h1{
+  padding: 0;
+
+}
+select{
+  width: 100%;
+}
+option{
+  width: 100%;
+}
+.car{
+  display: block;
+}
+.card{
+  width: 100%;
+}
+.ca{
+  display: block;
+}
+.jo{
+  width: 30%;
+}
+.h2{
+  margin: 0;
+  
+}
+.fin{
+  margin-left: 0;
+  width: 100%;
+}
+.explore div h1{
+  font-size:30px ;
+}
+}
+  

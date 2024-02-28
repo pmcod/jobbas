@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobba-Man</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+        <div>    <h1>Jobba-man</h1></div>
+
+          <div>
+            <div class="dropdown">
+              <button class="dropbtn">Job Seekers </button>
+              <div class="dropdown-content">
+                <a href="#">Job Vacancies</a>
+                <a href="#">CV Review Services</a>
+                <a href="#">Soft Skill Training</a>
+                <a href="#">Job Search Advice</a>
+              </div>
+            </div>
+          <div class="dropdown">
+              <button class="dropbtn">Career</button>
+              <div class="dropdown-content">
+                <a href="#">Job Vacancies</a>
+                <a href="#">CV Review Services</a>
+                <a href="#">Soft Skill Training</a>
+                <a href="#">Job Search Advice</a>
+              </div>
+            </div>
+          <div class="dropdown">
+              <button class="dropbtn">Employer</button>
+              <div class="dropdown-content">
+                <a href="#">Job Vacancies</a>
+                <a href="#">CV Review Services</a>
+                <a href="#">Soft Skill Training</a>
+                <a href="#">Job Search Advice</a>
+              </div>
+            </div>
+          </div>
+
+         <div class="logs">     <a href="">Log in </a> 
+          <a href="">Sign up</a>
+          <button><a href="">Post a Job</a></button> </div>
+        </nav> <hr>
+
+        <div class="cole">
+          <h1>Real Hiring Results Text Cole on <a href="">(715) 972-3651</a> </h1>
+        </div>
+    </header>
+    <section class="explore">
+      <div>
+        <h1>Explore and discover <br> the right job for you!</h1>
+      </div>
+      <div class="forms">
+        <form method="GET" action="" accept-charset="UTF-8" class="search_form flex flex-col items-center md:flex-row w-full" x-data="TopSearch" x-on:submit="handleSubmit">
+         <div class="fret">
+          <select class="w-full h-10 pl-3 text-sm not-italic font-normal leading-5 text-gray-500 rounded-md border border-gray-300 hover:border-gray-400 focus:border-gray-400 placeholder-gray-400 focus:placeholder-gray-900 mb-3 w-full md:mb-0 md:mr-3" style name="job_function[]" aria-label="Select a job function">
+            <option value>Any Job Functions</option>
+            <option value="accounting-auditing-finance">Accounting, Auditing & Finance</option>
+            <option value="admin-office">Admin & Office</option>
+            <option value="building-architecture">Building & Architecture</option>
+            <option value="community-social-services">Community & Social Services</option>
+            <option value="consulting-strategy">Consulting & Strategy</option>
+            <option value="creative-design">Creative & Design</option>
+            <option value="customer-service-support">Customer Service & Support</option>
+            <option value="driver-transport-services">Driver & Transport Services</option>
+            <option value="engineering-technology">Engineering & Technology</option>
+            <option value="estate-agent-property-management">Estate Agents & Property Management</option>
+            <option value="farming-agriculture">Farming & Agriculture</option>
+            <option value="food-services-catering">Food Services & Catering</option>
+            <option value="health-safety">Health & Safety</option>
+            <option value="hospitality-leisure">Hospitality & Leisure</option>
+            <option value="human-resources">Human Resources</option>
+            <option value="legal-services">Legal Services</option>
+            <option value="management-business-development">Management & Business Development</option>
+            <option value="marketing-communications">Marketing & Communications</option>
+            <option value="medical-pharmaceutical">Medical & Pharmaceutical</option>
+            <option value="product-project-management">Product & Project Management</option>
+            <option value="quality-control-assurance">Quality Control & Assurance</option>
+            <option value="research-teaching-training">Research, Teaching & Training</option>
+            <option value="sales">Sales</option>
+            <option value="software-data">Software & Data</option>
+            <option value="supply-chain-procurement">Supply Chain & Procurement</option>
+            <option value="trades-services">Trades & Services</option>
+            </select>
+            <select class="w-full h-10 pl-3 text-sm not-italic font-normal leading-5 text-gray-500 rounded-md border border-gray-300 hover:border-gray-400 focus:border-gray-400 placeholder-gray-400 focus:placeholder-gray-900 mb-3 w-full md:mb-0 md:mr-3" style name="industry" aria-label="Select an industry">
+            <option value>Any Industries</option>
+            <option value="advertising-media-communications">Advertising, Media & Communications</option>
+            <option value="agriculture-fishing-forestry">Agriculture, Fishing & Forestry</option>
+            <option value="automotive-aviation">Automotive & Aviation</option>
+            <option value="banking-finance-insurance">Banking, Finance & Insurance</option>
+            <option value="construction">Construction</option>
+            <option value="education">Education</option>
+            <option value="energy-utilities">Energy & Utilities</option>
+            <option value="enforcement-security">Enforcement & Security</option>
+            <option value="entertainment-events-sport">Entertainment, Events & Sport</option>
+            <option value="government">Government</option>
+            <option value="healthcare">Healthcare</option>
+            <option value="hospitality-hotel">Hospitality & Hotel</option>
+            <option value="it-telecoms">IT & Telecoms</option>
+            <option value="law-compliance">Law & Compliance</option>
+            <option value="manufacturing-warehousing">Manufacturing & Warehousing</option>
+            <option value="mining-energy-metals">Mining, Energy & Metals</option>
+            <option value="ngo-npo-charity">NGO, NPO & Charity</option>
+            <option value="real-estate">Real Estate</option>
+            <option value="recruitment">Recruitment</option>
+            <option value="retail-fashion-fmcg">Retail, Fashion & FMCG</option>
+            <option value="shipping-logistics">Shipping & Logistics</option>
+            <option value="tourism-travel">Tourism & Travel</option>
+            </select>
+            <select id="states" name="states">
+              <option value="AL">Alabama</option>
+              <option value="AK">Alaska</option>
+              <option value="AZ">Arizona</option>
+              <option value="AR">Arkansas</option>
+              <option value="CA">California</option>
+              <option value="CO">Colorado</option>
+              <option value="CT">Connecticut</option>
+              <option value="DE">Delaware</option>
+              <option value="FL">Florida</option>
+              <option value="GA">Georgia</option>
+              <option value="HI">Hawaii</option>
+              <option value="ID">Idaho</option>
+              <option value="IL">Illinois</option>
+              <option value="IN">Indiana</option>
+              <option value="IA">Iowa</option>
+              <option value="KS">Kansas</option>
+              <option value="KY">Kentucky</option>
+              <option value="LA">Louisiana</option>
+              <option value="ME">Maine</option>
+              <option value="MD">Maryland</option>
+              <option value="MA">Massachusetts</option>
+              <option value="MI">Michigan</option>
+              <option value="MN">Minnesota</option>
+              <option value="MS">Mississippi</option>
+              <option value="MO">Missouri</option>
+              <option value="MT">Montana</option>
+              <option value="NE">Nebraska</option>
+              <option value="NV">Nevada</option>
+              <option value="NH">New Hampshire</option>
+              <option value="NJ">New Jersey</option>
+              <option value="NM">New Mexico</option>
+              <option value="NY">New York</option>
+              <option value="NC">North Carolina</option>
+              <option value="ND">North Dakota</option>
+              <option value="OH">Ohio</option>
+              <option value="OK">Oklahoma</option>
+              <option value="OR">Oregon</option>
+              <option value="PA">Pennsylvania</option>
+              <option value="RI">Rhode Island</option>
+              <option value="SC">South Carolina</option>
+              <option value="SD">South Dakota</option>
+              <option value="TN">Tennessee</option>
+              <option value="TX">Texas</option>
+              <option value="UT">Utah</option>
+              <option value="VT">Vermont</option>
+              <option value="VA">Virginia</option>
+              <option value="WA">Washington</option>
+              <option value="WV">West Virginia</option>
+              <option value="WI">Wisconsin</option>
+              <option value="WY">Wyoming</option>
+            </select>
+       
+        <select class=" h-10 pl-3 text-sm not-italic font-normal leading-5 text-gray-500 rounded-md border border-gray-300 hover:border-gray-400 focus:border-gray-400 placeholder-gray-400 focus:placeholder-gray-900 mb-3 w-full md:mb-0 md:mr-3" style name="experience" aria-label="Select an experience level">
+          <option value>Any Experience Levels</option>
+          <option value="no-experience">No Experience</option>
+          <option value="graduate-trainee">Internship & Graduate</option>
+          <option value="entry-level">Entry level</option>
+          <option value="mid-level">Mid level</option>
+          <option value="senior-level">Senior level</option>
+          <option value="executive-level">Executive level</option>
+          </select>
+          <button type="submit">
+          <span class="mr-2" >Find a  Job</span>
+          </button>
+         </div>
+        </form>
+    </section>
+    <section>
+      <div>
+        <h1 class="fin">Find the right Job Vacancies that suit you </h1>
+        <h2 class="h2">Experience-based filtering.</h2>
+      
+
+      <div class="car">
+        <div class="card"> 
+          <h2>Internship & Graduate</h2>
+            <p>53 Jobs</p>
+  
+            <a href="">Explore Jobs</a>
+        </div>
+        <div class="card">
+          <h2>Senior Level</h2>
+            <p>258 Jobs</p>
+  
+            <a href="">Explore Jobs</a>
+        </div>
+        <div  class="card">
+          <h2>Executive Level</h2>
+            <p>30 Jobs</p>
+  
+            <a href="">Explore Jobs</a>
+        </div>
+      </div>
+      <div class="ca">
+        <div  class="card">
+          <h2>Mid  Level</h2>
+            <p>899 Jobs</p>
+  
+            <a href="">Explore Jobs</a>
+        </div>
+
+        <div  class="card">
+          <h2>Entry Level</h2>
+            <p>608 Jobs</p>
+  
+            <a href="">Explore Jobs</a>
+        </div>
+      </div>
+
+<button class="jo"><a href="">Explore All Jobs</a></button>
+
+      </div>
+    </section>
+
+
+
+    <section>
+     <h1 class="res"> Looking to get a job that comes with an official house, car and a good salary 
+      click <a href="here.html">here </a> to apply!!!</h1>
+    </section>
+</html>
